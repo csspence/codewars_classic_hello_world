@@ -15,4 +15,11 @@ For prolog you can use write but there are better ways
 
 // Print "Hello World!" to the screen
 class Solution{
+    constructor(name) {
+        this.title = name;
+    }
+}
+
+Solution.main = () => {
+    console.log('Hello World!');
 }
